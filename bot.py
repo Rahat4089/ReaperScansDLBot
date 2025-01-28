@@ -9,9 +9,9 @@ from bs4 import BeautifulSoup
 from fpdf import FPDF
 import shutil
 
-api_id = '24720817'
-api_hash = '43669876f7dbd754e157c69c89ebf3eb'
-bot_token = '7752549512:AAE1Qeeeh3rWDQeXBN-5Wg1ZKRt8uQMs0is'
+api_id = '' # Add Your Telegram API_ID Here
+api_hash = '' # Add Your Telegram API_ID Here
+bot_token = '' # Add Your Telegram API_ID Here
 
 app = Client("manga_search_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
@@ -26,8 +26,8 @@ download_queue = asyncio.Queue()
 
 async def search_manga(manga_name):
     base_url = "https://api.reaperscans.com/query"
-    params = {"adult": "true", "query_string": manga_name} #Use This For Both Novel And Comic
-    #params = {"adult": "true", "series_type": "Comic", "query_string": manga_name} #Use This For Comic Only
+    #params = {"adult": "true", "query_string": manga_name} #Use This For Both Novel And Comic
+    params = {"adult": "true", "series_type": "Comic", "query_string": manga_name} #Use This For Comic Only
 
     async with aiohttp.ClientSession() as session:
         try:
