@@ -1,0 +1,10 @@
+#...For Sending Requests...#
+aiohttp
+#...For Telegram Bot...#
+pyrogram #use pyrofork if you want 
+#...For For Manupulating Images...#
+pillow
+#...For Web Scrapping...#
+BeautifulSoup
+#...For PDF Stuf...#
+fpdf
