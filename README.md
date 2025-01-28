@@ -20,16 +20,16 @@ Welcome to the Manga Search Bot! This bot allows you to search, read, and downlo
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-repo>/manga-search-bot.git
-   cd manga-search-bot
+   git clone https://github.com/<your-username>/ReaperScansDLBot.git
+   cd ReaperScansDLBot
    ```
 
 2. **Set Up Environment Variables:**
-   Create a `.env` file in the root directory and add the following:
+   Fill Up `Environment Variables` in bot.py:
    ```
-   API_ID=<your_telegram_api_id>
-   API_HASH=<your_telegram_api_hash>
-   BOT_TOKEN=<your_bot_token>
+   API_ID=<your_telegram_api_id> #in line 18
+   API_HASH=<your_telegram_api_hash> #in line 19
+   BOT_TOKEN=<your_bot_token> #in line 20
    ```
 
    You can obtain these values by following the steps below:
