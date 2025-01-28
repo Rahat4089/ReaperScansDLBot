@@ -129,5 +129,3 @@ This bot was originally created by [RAHAT](https://t.me/r4h4t_69). Feel free to 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
-
-Thank you for using Manga Search Bot!
