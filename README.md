@@ -1,4 +1,4 @@
-# Manga Search Bot
+# ReaperScans DL Bot
 
 ![Manga Search Bot](https://envs.sh/aWZ.jpg)
 
@@ -25,7 +25,7 @@ Welcome to the Manga Search Bot! This bot allows you to search, read, and downlo
    ```
 
 2. **Set Up Environment Variables:**
-   Fill Up `Environment Variables` in bot.py:
+   Fill Up `Environment Variables` in [bot.py](https://github.com/Rahat4089/ReaperScansDLBot/blob/main/bot.py):
    ```
    API_ID=<your_telegram_api_id> #in line 18
    API_HASH=<your_telegram_api_hash> #in line 19
